@@ -1,0 +1,20 @@
+﻿  person.cpp
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.cpp(9): error C2653: 'person': is not a class or namespace name
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.cpp(11): error C2065: 'cout': undeclared identifier
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.cpp(11): error C2065: 'name': undeclared identifier
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.cpp(11): error C2065: 'age': undeclared identifier
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.cpp(11): error C2065: 'endl': undeclared identifier
+  oop.cpp
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.h(8): error C3646: 'name': unknown override specifier
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\oop.cpp(17): error C2065: 'name': undeclared identifier
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\oop.cpp(29): error C2065: 'name': undeclared identifier
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\oop.cpp(38): error C2039: 'name': is not a member of 'person'
+  c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.h(6): note: see declaration of 'person'
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\oop.cpp(39): error C2039: 'name': is not a member of 'person'
+  c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\person.h(6): note: see declaration of 'person'
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\oop.cpp(40): error C2039: 'name': is not a member of 'student'
+  c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\oop.cpp(11): note: see declaration of 'student'
+c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\oop.cpp(41): error C2039: 'name': is not a member of 'professor'
+  c:\users\cameron.pickle\documents\visual studio 2015\projects\oop.cpp\oop.cpp\oop.cpp(21): note: see declaration of 'professor'
+  Generating Code...
