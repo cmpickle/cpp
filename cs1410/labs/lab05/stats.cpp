@@ -48,46 +48,8 @@ int* histogram(int scores[], int length)
 
 	for (int i = 0; i < length; ++i)
 	{
-		if (scores[i] >= 90)
-		{
-			++bins[9];
-		}
-		else if (scores[i] >= 80)
-		{
-			++bins[8];
-		}
-		else if (scores[i] >= 70)
-		{
-			++bins[7];
-		}
-		else if (scores[i] >= 60)
-		{
-			++bins[6];
-		}
-		else if (scores[i] >= 50)
-		{
-			++bins[5];
-		}
-		else if (scores[i] >= 40)
-		{
-			++bins[4];
-		}
-		else if (scores[i] >= 30)
-		{
-			++bins[3];
-		}
-		else if (scores[i] >= 20)
-		{
-			++bins[2];
-		}
-		else if (scores[i] >= 10)
-		{
-			++bins[1];
-		}
-		else if (scores[i] >= 0)
-		{
-			++bins[0];
-		}
+		int test = (((scores[i] / 100 * -10) + scores[i]) % 100) / 10;
+		++bins[(((scores[i]/100 * -10) + scores[i]) % 100) / 10];
 	}
 
 	return bins;
