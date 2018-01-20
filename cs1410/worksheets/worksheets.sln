@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worksheet06", "worksheet06\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worksheet07", "worksheet07\worksheet07.vcxproj", "{EAF958BE-9B16-4B48-8BE0-4FAA9FC08CD9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worksheet08", "worksheet08\worksheet08.vcxproj", "{1688FFF5-2508-4450-844C-B875C56876F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{EAF958BE-9B16-4B48-8BE0-4FAA9FC08CD9}.Release|x64.Build.0 = Release|x64
 		{EAF958BE-9B16-4B48-8BE0-4FAA9FC08CD9}.Release|x86.ActiveCfg = Release|Win32
 		{EAF958BE-9B16-4B48-8BE0-4FAA9FC08CD9}.Release|x86.Build.0 = Release|Win32
+		{1688FFF5-2508-4450-844C-B875C56876F5}.Debug|x64.ActiveCfg = Debug|x64
+		{1688FFF5-2508-4450-844C-B875C56876F5}.Debug|x64.Build.0 = Debug|x64
+		{1688FFF5-2508-4450-844C-B875C56876F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{1688FFF5-2508-4450-844C-B875C56876F5}.Debug|x86.Build.0 = Debug|Win32
+		{1688FFF5-2508-4450-844C-B875C56876F5}.Release|x64.ActiveCfg = Release|x64
+		{1688FFF5-2508-4450-844C-B875C56876F5}.Release|x64.Build.0 = Release|x64
+		{1688FFF5-2508-4450-844C-B875C56876F5}.Release|x86.ActiveCfg = Release|Win32
+		{1688FFF5-2508-4450-844C-B875C56876F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
