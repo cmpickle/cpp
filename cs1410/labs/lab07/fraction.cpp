@@ -3,22 +3,22 @@
 
 fraction fraction::add(fraction f)
 {
-
+	return fraction(this->numerator*f.denominator + this->denominator*f.numerator, this->denominator*f.denominator);
 }
 
 fraction fraction::sub(fraction f)
 {
-
+	return fraction(this->numerator*f.denominator - this->denominator*f.numerator, this->denominator*f.denominator);
 }
 
 fraction fraction::mult(fraction f)
 {
-
+	return fraction(this->numerator*f.numerator, this->denominator*f.denominator);
 }
 
 fraction fraction::div(fraction f)
 {
-
+	return fraction(this->numerator*f.denominator, this->denominator*f.numerator);
 }
 
 void fraction::print()
@@ -28,7 +28,8 @@ void fraction::print()
 
 void fraction::read()
 {
-	
+	std::cin >> this->numerator;
+	std::cin >> this->denominator;
 }
 
 int gcd(int u, int v)
