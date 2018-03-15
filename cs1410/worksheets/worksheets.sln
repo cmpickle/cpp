@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worksheet02", "worksheets\worksheets.vcxproj", "{094C52CC-6CB4-4CB8-B157-F8407CCC857E}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worksheet08", "worksheet08\worksheet08.vcxproj", "{1688FFF5-2508-4450-844C-B875C56876F5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worksheet09", "worksheet09\worksheet09.vcxproj", "{FA168086-F495-4D0A-ACD4-3EAFDD73A6F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worksheet12", "worksheet12\worksheet12.vcxproj", "{DA1B1518-7FF1-43FD-A398-0D5023055838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{FA168086-F495-4D0A-ACD4-3EAFDD73A6F2}.Release|x64.Build.0 = Release|x64
 		{FA168086-F495-4D0A-ACD4-3EAFDD73A6F2}.Release|x86.ActiveCfg = Release|Win32
 		{FA168086-F495-4D0A-ACD4-3EAFDD73A6F2}.Release|x86.Build.0 = Release|Win32
+		{DA1B1518-7FF1-43FD-A398-0D5023055838}.Debug|x64.ActiveCfg = Debug|x64
+		{DA1B1518-7FF1-43FD-A398-0D5023055838}.Debug|x64.Build.0 = Debug|x64
+		{DA1B1518-7FF1-43FD-A398-0D5023055838}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA1B1518-7FF1-43FD-A398-0D5023055838}.Debug|x86.Build.0 = Debug|Win32
+		{DA1B1518-7FF1-43FD-A398-0D5023055838}.Release|x64.ActiveCfg = Release|x64
+		{DA1B1518-7FF1-43FD-A398-0D5023055838}.Release|x64.Build.0 = Release|x64
+		{DA1B1518-7FF1-43FD-A398-0D5023055838}.Release|x86.ActiveCfg = Release|Win32
+		{DA1B1518-7FF1-43FD-A398-0D5023055838}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
