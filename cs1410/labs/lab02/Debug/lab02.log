@@ -1,3 +1,1 @@
-﻿  roots2.cpp
-c:\code\cpp\cs1410\labs\labs\roots2.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  lab02.vcxproj -> C:\code\cpp\cs1410\labs\Debug\lab02.exe
+﻿  lab02.vcxproj -> D:\code\cpp\cs1410\labs\Debug\lab02.exe
